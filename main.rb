@@ -28,7 +28,7 @@ def underline;      "\e[4m#{self}\e[24m" end
 def blink;          "\e[5m#{self}\e[25m" end
 def reverse_color;  "\e[7m#{self}\e[27m" end
 end
-# end borrowed code
+# stop borrowed code
 
 #my methods
 def roll_dice(number_of_dice, size_of_dice)
@@ -43,7 +43,7 @@ end
 def roll_some_dice
  puts "Choose the number of dice to roll"
  first_num = gets.chomp.to_i
- puts "Choose the number of sudes each dice has"
+ puts "Choose the number of sides each dice has"
  second_num = gets.chomp.to_i
  print ("Your number is, ")
  print (" 🥁   Drumroll please...🥁  ")
@@ -85,7 +85,7 @@ puts "Like, i just like, you know, like got a ton of methods."
 
 puts "_________________________________________________________________________________"
 
-
+puts "PLEASE NOTE THAT ONE LINE OF RUBY TAKES APPROXIMATELY 0.1 SECONDS TO EXECUTE SO PLEASE REFRAIN FROM TYPING IN VERY LARGE NUMBERS, BECAUSE THEN IT WILL TAKE FOREVER TO LOAD."
 puts "roll_dice function:"
 
 puts "Choose your own numbers!"
@@ -101,7 +101,7 @@ num = roll_dice(num1, num2)
 print (num) 
 puts " Is your number!"
 
-puts "Lets use another function that is pretty mush the same!"
+puts "Lets use another function that is pretty much the same!"
 puts "Press Enter [Windows] or Return [Mac] to continue"
 input = gets
 roll_some_dice
@@ -114,6 +114,11 @@ puts "Press Enter [Windows] or Return [Mac] to continue"
 input1 = gets
 
 
-puts "A long long time ago, in the land of "
+puts "A long long time ago, in the land of repl.it, in the town of main.rb there was a brave adventurer who was really a cyborg from the distant planet of Scratch"
 
+puts "The town adorded him and he was made the mayor of the town. Your father is the king of the country of Repl.it"
+
+
+#I got borded here so lol see my next project here that I am working on now:
+#ccccc
 
